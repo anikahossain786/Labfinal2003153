@@ -17,7 +17,7 @@ private:
 public:
     Circle(double r) : radius(r) {}
     double calculateArea() const override {
-        return M_PI * radius * radius; 
+        return 3.14159 * radius * radius; 
     }
      string getType() const override {
         return "Circle";
